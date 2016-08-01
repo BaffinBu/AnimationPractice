@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F90342811D0D00D3001A522A /* Group1ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = F90342801D0D00D3001A522A /* Group1ViewController1.m */; };
+		F90342851D0D0141001A522A /* Group1ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = F90342831D0D0141001A522A /* Group1ViewController2.m */; };
+		F90342861D0D0141001A522A /* Group1ViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = F90342841D0D0141001A522A /* Group1ViewController2.xib */; };
+		F90342881D0D015D001A522A /* Group1ViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = F90342871D0D015D001A522A /* Group1ViewController1.xib */; };
+		F903428B1D0D02C1001A522A /* Group1NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F903428A1D0D02C1001A522A /* Group1NavigationController.m */; };
+		F903428E1D0D110C001A522A /* Group1Transitiong.m in Sources */ = {isa = PBXBuildFile; fileRef = F903428D1D0D110C001A522A /* Group1Transitiong.m */; };
+		F942F4601CEF051B00BE88ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F942F45F1CEF051B00BE88ED /* main.m */; };
+		F942F4631CEF051B00BE88ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F942F4621CEF051B00BE88ED /* AppDelegate.m */; };
+		F942F4661CEF051B00BE88ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F942F4651CEF051B00BE88ED /* ViewController.m */; };
+		F942F4691CEF051B00BE88ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F942F4671CEF051B00BE88ED /* Main.storyboard */; };
+		F942F46B1CEF051B00BE88ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F942F46A1CEF051B00BE88ED /* Assets.xcassets */; };
+		F942F46E1CEF051B00BE88ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F942F46C1CEF051B00BE88ED /* LaunchScreen.storyboard */; };
+		F942F4791CEF051B00BE88ED /* pingTransitionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F942F4781CEF051B00BE88ED /* pingTransitionDemoTests.m */; };
+		F942F4841CEF051B00BE88ED /* pingTransitionDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F942F4831CEF051B00BE88ED /* pingTransitionDemoUITests.m */; };
+		F942F4941CEF079D00BE88ED /* PingTransiton.m in Sources */ = {isa = PBXBuildFile; fileRef = F942F4931CEF079D00BE88ED /* PingTransiton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F942F4751CEF051B00BE88ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F942F4531CEF051B00BE88ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F942F45A1CEF051B00BE88ED;
+			remoteInfo = pingTransitionDemo;
+		};
+		F942F4801CEF051B00BE88ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F942F4531CEF051B00BE88ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F942F45A1CEF051B00BE88ED;
+			remoteInfo = pingTransitionDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F903427F1D0D00D3001A522A /* Group1ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Group1ViewController1.h; sourceTree = "<group>"; };
+		F90342801D0D00D3001A522A /* Group1ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Group1ViewController1.m; sourceTree = "<group>"; };
+		F90342821D0D0141001A522A /* Group1ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Group1ViewController2.h; sourceTree = "<group>"; };
+		F90342831D0D0141001A522A /* Group1ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Group1ViewController2.m; sourceTree = "<group>"; };
+		F90342841D0D0141001A522A /* Group1ViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Group1ViewController2.xib; sourceTree = "<group>"; };
+		F90342871D0D015D001A522A /* Group1ViewController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Group1ViewController1.xib; sourceTree = "<group>"; };
+		F90342891D0D02C1001A522A /* Group1NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Group1NavigationController.h; sourceTree = "<group>"; };
+		F903428A1D0D02C1001A522A /* Group1NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Group1NavigationController.m; sourceTree = "<group>"; };
+		F903428C1D0D110C001A522A /* Group1Transitiong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Group1Transitiong.h; sourceTree = "<group>"; };
+		F903428D1D0D110C001A522A /* Group1Transitiong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Group1Transitiong.m; sourceTree = "<group>"; };
+		F942F45B1CEF051B00BE88ED /* pingTransitionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pingTransitionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F942F45F1CEF051B00BE88ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F942F4611CEF051B00BE88ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F942F4621CEF051B00BE88ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F942F4641CEF051B00BE88ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F942F4651CEF051B00BE88ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F942F4681CEF051B00BE88ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F942F46A1CEF051B00BE88ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F942F46D1CEF051B00BE88ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F942F46F1CEF051B00BE88ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F942F4741CEF051B00BE88ED /* pingTransitionDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pingTransitionDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F942F4781CEF051B00BE88ED /* pingTransitionDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pingTransitionDemoTests.m; sourceTree = "<group>"; };
+		F942F47A1CEF051B00BE88ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F942F47F1CEF051B00BE88ED /* pingTransitionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pingTransitionDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F942F4831CEF051B00BE88ED /* pingTransitionDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pingTransitionDemoUITests.m; sourceTree = "<group>"; };
+		F942F4851CEF051B00BE88ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F942F4921CEF079D00BE88ED /* PingTransiton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingTransiton.h; sourceTree = "<group>"; };
+		F942F4931CEF079D00BE88ED /* PingTransiton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingTransiton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F942F4581CEF051B00BE88ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F942F4711CEF051B00BE88ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F942F47C1CEF051B00BE88ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F903427E1D0CFEC0001A522A /* TransitionControllerGroup1 */ = {
+			isa = PBXGroup;
+			children = (
+				F903427F1D0D00D3001A522A /* Group1ViewController1.h */,
+				F90342801D0D00D3001A522A /* Group1ViewController1.m */,
+				F90342871D0D015D001A522A /* Group1ViewController1.xib */,
+				F90342821D0D0141001A522A /* Group1ViewController2.h */,
+				F90342831D0D0141001A522A /* Group1ViewController2.m */,
+				F90342841D0D0141001A522A /* Group1ViewController2.xib */,
+				F90342891D0D02C1001A522A /* Group1NavigationController.h */,
+				F903428A1D0D02C1001A522A /* Group1NavigationController.m */,
+				F903428C1D0D110C001A522A /* Group1Transitiong.h */,
+				F903428D1D0D110C001A522A /* Group1Transitiong.m */,
+			);
+			name = TransitionControllerGroup1;
+			sourceTree = "<group>";
+		};
+		F942F4521CEF051B00BE88ED = {
+			isa = PBXGroup;
+			children = (
+				F942F45D1CEF051B00BE88ED /* pingTransitionDemo */,
+				F942F4771CEF051B00BE88ED /* pingTransitionDemoTests */,
+				F942F4821CEF051B00BE88ED /* pingTransitionDemoUITests */,
+				F942F45C1CEF051B00BE88ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F942F45C1CEF051B00BE88ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F942F45B1CEF051B00BE88ED /* pingTransitionDemo.app */,
+				F942F4741CEF051B00BE88ED /* pingTransitionDemoTests.xctest */,
+				F942F47F1CEF051B00BE88ED /* pingTransitionDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F942F45D1CEF051B00BE88ED /* pingTransitionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F903427E1D0CFEC0001A522A /* TransitionControllerGroup1 */,
+				F942F4911CEF056600BE88ED /* TransitionClass */,
+				F942F4611CEF051B00BE88ED /* AppDelegate.h */,
+				F942F4621CEF051B00BE88ED /* AppDelegate.m */,
+				F942F4641CEF051B00BE88ED /* ViewController.h */,
+				F942F4651CEF051B00BE88ED /* ViewController.m */,
+				F942F4671CEF051B00BE88ED /* Main.storyboard */,
+				F942F46A1CEF051B00BE88ED /* Assets.xcassets */,
+				F942F46C1CEF051B00BE88ED /* LaunchScreen.storyboard */,
+				F942F46F1CEF051B00BE88ED /* Info.plist */,
+				F942F45E1CEF051B00BE88ED /* Supporting Files */,
+			);
+			path = pingTransitionDemo;
+			sourceTree = "<group>";
+		};
+		F942F45E1CEF051B00BE88ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F942F45F1CEF051B00BE88ED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F942F4771CEF051B00BE88ED /* pingTransitionDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F942F4781CEF051B00BE88ED /* pingTransitionDemoTests.m */,
+				F942F47A1CEF051B00BE88ED /* Info.plist */,
+			);
+			path = pingTransitionDemoTests;
+			sourceTree = "<group>";
+		};
+		F942F4821CEF051B00BE88ED /* pingTransitionDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F942F4831CEF051B00BE88ED /* pingTransitionDemoUITests.m */,
+				F942F4851CEF051B00BE88ED /* Info.plist */,
+			);
+			path = pingTransitionDemoUITests;
+			sourceTree = "<group>";
+		};
+		F942F4911CEF056600BE88ED /* TransitionClass */ = {
+			isa = PBXGroup;
+			children = (
+				F942F4921CEF079D00BE88ED /* PingTransiton.h */,
+				F942F4931CEF079D00BE88ED /* PingTransiton.m */,
+			);
+			name = TransitionClass;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F942F45A1CEF051B00BE88ED /* pingTransitionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F942F4881CEF051B00BE88ED /* Build configuration list for PBXNativeTarget "pingTransitionDemo" */;
+			buildPhases = (
+				F942F4571CEF051B00BE88ED /* Sources */,
+				F942F4581CEF051B00BE88ED /* Frameworks */,
+				F942F4591CEF051B00BE88ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pingTransitionDemo;
+			productName = pingTransitionDemo;
+			productReference = F942F45B1CEF051B00BE88ED /* pingTransitionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F942F4731CEF051B00BE88ED /* pingTransitionDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F942F48B1CEF051B00BE88ED /* Build configuration list for PBXNativeTarget "pingTransitionDemoTests" */;
+			buildPhases = (
+				F942F4701CEF051B00BE88ED /* Sources */,
+				F942F4711CEF051B00BE88ED /* Frameworks */,
+				F942F4721CEF051B00BE88ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F942F4761CEF051B00BE88ED /* PBXTargetDependency */,
+			);
+			name = pingTransitionDemoTests;
+			productName = pingTransitionDemoTests;
+			productReference = F942F4741CEF051B00BE88ED /* pingTransitionDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F942F47E1CEF051B00BE88ED /* pingTransitionDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F942F48E1CEF051B00BE88ED /* Build configuration list for PBXNativeTarget "pingTransitionDemoUITests" */;
+			buildPhases = (
+				F942F47B1CEF051B00BE88ED /* Sources */,
+				F942F47C1CEF051B00BE88ED /* Frameworks */,
+				F942F47D1CEF051B00BE88ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F942F4811CEF051B00BE88ED /* PBXTargetDependency */,
+			);
+			name = pingTransitionDemoUITests;
+			productName = pingTransitionDemoUITests;
+			productReference = F942F47F1CEF051B00BE88ED /* pingTransitionDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F942F4531CEF051B00BE88ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = wy0012;
+				TargetAttributes = {
+					F942F45A1CEF051B00BE88ED = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F942F4731CEF051B00BE88ED = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F942F45A1CEF051B00BE88ED;
+					};
+					F942F47E1CEF051B00BE88ED = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F942F45A1CEF051B00BE88ED;
+					};
+				};
+			};
+			buildConfigurationList = F942F4561CEF051B00BE88ED /* Build configuration list for PBXProject "pingTransitionDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F942F4521CEF051B00BE88ED;
+			productRefGroup = F942F45C1CEF051B00BE88ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F942F45A1CEF051B00BE88ED /* pingTransitionDemo */,
+				F942F4731CEF051B00BE88ED /* pingTransitionDemoTests */,
+				F942F47E1CEF051B00BE88ED /* pingTransitionDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F942F4591CEF051B00BE88ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90342881D0D015D001A522A /* Group1ViewController1.xib in Resources */,
+				F942F46E1CEF051B00BE88ED /* LaunchScreen.storyboard in Resources */,
+				F90342861D0D0141001A522A /* Group1ViewController2.xib in Resources */,
+				F942F46B1CEF051B00BE88ED /* Assets.xcassets in Resources */,
+				F942F4691CEF051B00BE88ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F942F4721CEF051B00BE88ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F942F47D1CEF051B00BE88ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F942F4571CEF051B00BE88ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90342811D0D00D3001A522A /* Group1ViewController1.m in Sources */,
+				F903428B1D0D02C1001A522A /* Group1NavigationController.m in Sources */,
+				F942F4661CEF051B00BE88ED /* ViewController.m in Sources */,
+				F942F4631CEF051B00BE88ED /* AppDelegate.m in Sources */,
+				F90342851D0D0141001A522A /* Group1ViewController2.m in Sources */,
+				F942F4941CEF079D00BE88ED /* PingTransiton.m in Sources */,
+				F903428E1D0D110C001A522A /* Group1Transitiong.m in Sources */,
+				F942F4601CEF051B00BE88ED /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F942F4701CEF051B00BE88ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F942F4791CEF051B00BE88ED /* pingTransitionDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F942F47B1CEF051B00BE88ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F942F4841CEF051B00BE88ED /* pingTransitionDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F942F4761CEF051B00BE88ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F942F45A1CEF051B00BE88ED /* pingTransitionDemo */;
+			targetProxy = F942F4751CEF051B00BE88ED /* PBXContainerItemProxy */;
+		};
+		F942F4811CEF051B00BE88ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F942F45A1CEF051B00BE88ED /* pingTransitionDemo */;
+			targetProxy = F942F4801CEF051B00BE88ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F942F4671CEF051B00BE88ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F942F4681CEF051B00BE88ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F942F46C1CEF051B00BE88ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F942F46D1CEF051B00BE88ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F942F4861CEF051B00BE88ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F942F4871CEF051B00BE88ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F942F4891CEF051B00BE88ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pingTransitionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TEST.pingTransitionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F942F48A1CEF051B00BE88ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pingTransitionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TEST.pingTransitionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F942F48C1CEF051B00BE88ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pingTransitionDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TEST.pingTransitionDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pingTransitionDemo.app/pingTransitionDemo";
+			};
+			name = Debug;
+		};
+		F942F48D1CEF051B00BE88ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pingTransitionDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TEST.pingTransitionDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pingTransitionDemo.app/pingTransitionDemo";
+			};
+			name = Release;
+		};
+		F942F48F1CEF051B00BE88ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = pingTransitionDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TEST.pingTransitionDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = pingTransitionDemo;
+			};
+			name = Debug;
+		};
+		F942F4901CEF051B00BE88ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = pingTransitionDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TEST.pingTransitionDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = pingTransitionDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F942F4561CEF051B00BE88ED /* Build configuration list for PBXProject "pingTransitionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F942F4861CEF051B00BE88ED /* Debug */,
+				F942F4871CEF051B00BE88ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F942F4881CEF051B00BE88ED /* Build configuration list for PBXNativeTarget "pingTransitionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F942F4891CEF051B00BE88ED /* Debug */,
+				F942F48A1CEF051B00BE88ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F942F48B1CEF051B00BE88ED /* Build configuration list for PBXNativeTarget "pingTransitionDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F942F48C1CEF051B00BE88ED /* Debug */,
+				F942F48D1CEF051B00BE88ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F942F48E1CEF051B00BE88ED /* Build configuration list for PBXNativeTarget "pingTransitionDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F942F48F1CEF051B00BE88ED /* Debug */,
+				F942F4901CEF051B00BE88ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F942F4531CEF051B00BE88ED /* Project object */;
+}

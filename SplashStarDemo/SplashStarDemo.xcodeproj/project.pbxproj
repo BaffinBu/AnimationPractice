@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9E3E02C1CE2C8E300497CD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E3E02B1CE2C8E300497CD0 /* main.m */; };
+		F9E3E02F1CE2C8E300497CD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E3E02E1CE2C8E300497CD0 /* AppDelegate.m */; };
+		F9E3E0321CE2C8E300497CD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E3E0311CE2C8E300497CD0 /* ViewController.m */; };
+		F9E3E0351CE2C8E300497CD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9E3E0331CE2C8E300497CD0 /* Main.storyboard */; };
+		F9E3E0371CE2C8E300497CD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9E3E0361CE2C8E300497CD0 /* Assets.xcassets */; };
+		F9E3E03A1CE2C8E300497CD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9E3E0381CE2C8E300497CD0 /* LaunchScreen.storyboard */; };
+		F9E3E0451CE2C8E300497CD0 /* SplashStarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E3E0441CE2C8E300497CD0 /* SplashStarDemoTests.m */; };
+		F9E3E0501CE2C8E300497CD0 /* SplashStarDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E3E04F1CE2C8E300497CD0 /* SplashStarDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9E3E0411CE2C8E300497CD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9E3E01F1CE2C8E300497CD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9E3E0261CE2C8E300497CD0;
+			remoteInfo = SplashStarDemo;
+		};
+		F9E3E04C1CE2C8E300497CD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9E3E01F1CE2C8E300497CD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9E3E0261CE2C8E300497CD0;
+			remoteInfo = SplashStarDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9E3E0271CE2C8E300497CD0 /* SplashStarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplashStarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9E3E02B1CE2C8E300497CD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F9E3E02D1CE2C8E300497CD0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F9E3E02E1CE2C8E300497CD0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F9E3E0301CE2C8E300497CD0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F9E3E0311CE2C8E300497CD0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F9E3E0341CE2C8E300497CD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9E3E0361CE2C8E300497CD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9E3E0391CE2C8E300497CD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9E3E03B1CE2C8E300497CD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9E3E0401CE2C8E300497CD0 /* SplashStarDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplashStarDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9E3E0441CE2C8E300497CD0 /* SplashStarDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashStarDemoTests.m; sourceTree = "<group>"; };
+		F9E3E0461CE2C8E300497CD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9E3E04B1CE2C8E300497CD0 /* SplashStarDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplashStarDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9E3E04F1CE2C8E300497CD0 /* SplashStarDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashStarDemoUITests.m; sourceTree = "<group>"; };
+		F9E3E0511CE2C8E300497CD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9E3E0241CE2C8E300497CD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9E3E03D1CE2C8E300497CD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9E3E0481CE2C8E300497CD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9E3E01E1CE2C8E300497CD0 = {
+			isa = PBXGroup;
+			children = (
+				F9E3E0291CE2C8E300497CD0 /* SplashStarDemo */,
+				F9E3E0431CE2C8E300497CD0 /* SplashStarDemoTests */,
+				F9E3E04E1CE2C8E300497CD0 /* SplashStarDemoUITests */,
+				F9E3E0281CE2C8E300497CD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9E3E0281CE2C8E300497CD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9E3E0271CE2C8E300497CD0 /* SplashStarDemo.app */,
+				F9E3E0401CE2C8E300497CD0 /* SplashStarDemoTests.xctest */,
+				F9E3E04B1CE2C8E300497CD0 /* SplashStarDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9E3E0291CE2C8E300497CD0 /* SplashStarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F9E3E02D1CE2C8E300497CD0 /* AppDelegate.h */,
+				F9E3E02E1CE2C8E300497CD0 /* AppDelegate.m */,
+				F9E3E0301CE2C8E300497CD0 /* ViewController.h */,
+				F9E3E0311CE2C8E300497CD0 /* ViewController.m */,
+				F9E3E0331CE2C8E300497CD0 /* Main.storyboard */,
+				F9E3E0361CE2C8E300497CD0 /* Assets.xcassets */,
+				F9E3E0381CE2C8E300497CD0 /* LaunchScreen.storyboard */,
+				F9E3E03B1CE2C8E300497CD0 /* Info.plist */,
+				F9E3E02A1CE2C8E300497CD0 /* Supporting Files */,
+			);
+			path = SplashStarDemo;
+			sourceTree = "<group>";
+		};
+		F9E3E02A1CE2C8E300497CD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9E3E02B1CE2C8E300497CD0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9E3E0431CE2C8E300497CD0 /* SplashStarDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9E3E0441CE2C8E300497CD0 /* SplashStarDemoTests.m */,
+				F9E3E0461CE2C8E300497CD0 /* Info.plist */,
+			);
+			path = SplashStarDemoTests;
+			sourceTree = "<group>";
+		};
+		F9E3E04E1CE2C8E300497CD0 /* SplashStarDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F9E3E04F1CE2C8E300497CD0 /* SplashStarDemoUITests.m */,
+				F9E3E0511CE2C8E300497CD0 /* Info.plist */,
+			);
+			path = SplashStarDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9E3E0261CE2C8E300497CD0 /* SplashStarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9E3E0541CE2C8E300497CD0 /* Build configuration list for PBXNativeTarget "SplashStarDemo" */;
+			buildPhases = (
+				F9E3E0231CE2C8E300497CD0 /* Sources */,
+				F9E3E0241CE2C8E300497CD0 /* Frameworks */,
+				F9E3E0251CE2C8E300497CD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SplashStarDemo;
+			productName = SplashStarDemo;
+			productReference = F9E3E0271CE2C8E300497CD0 /* SplashStarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9E3E03F1CE2C8E300497CD0 /* SplashStarDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9E3E0571CE2C8E300497CD0 /* Build configuration list for PBXNativeTarget "SplashStarDemoTests" */;
+			buildPhases = (
+				F9E3E03C1CE2C8E300497CD0 /* Sources */,
+				F9E3E03D1CE2C8E300497CD0 /* Frameworks */,
+				F9E3E03E1CE2C8E300497CD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9E3E0421CE2C8E300497CD0 /* PBXTargetDependency */,
+			);
+			name = SplashStarDemoTests;
+			productName = SplashStarDemoTests;
+			productReference = F9E3E0401CE2C8E300497CD0 /* SplashStarDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9E3E04A1CE2C8E300497CD0 /* SplashStarDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9E3E05A1CE2C8E300497CD0 /* Build configuration list for PBXNativeTarget "SplashStarDemoUITests" */;
+			buildPhases = (
+				F9E3E0471CE2C8E300497CD0 /* Sources */,
+				F9E3E0481CE2C8E300497CD0 /* Frameworks */,
+				F9E3E0491CE2C8E300497CD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9E3E04D1CE2C8E300497CD0 /* PBXTargetDependency */,
+			);
+			name = SplashStarDemoUITests;
+			productName = SplashStarDemoUITests;
+			productReference = F9E3E04B1CE2C8E300497CD0 /* SplashStarDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9E3E01F1CE2C8E300497CD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = wy0012;
+				TargetAttributes = {
+					F9E3E0261CE2C8E300497CD0 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F9E3E03F1CE2C8E300497CD0 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F9E3E0261CE2C8E300497CD0;
+					};
+					F9E3E04A1CE2C8E300497CD0 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F9E3E0261CE2C8E300497CD0;
+					};
+				};
+			};
+			buildConfigurationList = F9E3E0221CE2C8E300497CD0 /* Build configuration list for PBXProject "SplashStarDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9E3E01E1CE2C8E300497CD0;
+			productRefGroup = F9E3E0281CE2C8E300497CD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9E3E0261CE2C8E300497CD0 /* SplashStarDemo */,
+				F9E3E03F1CE2C8E300497CD0 /* SplashStarDemoTests */,
+				F9E3E04A1CE2C8E300497CD0 /* SplashStarDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9E3E0251CE2C8E300497CD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E3E03A1CE2C8E300497CD0 /* LaunchScreen.storyboard in Resources */,
+				F9E3E0371CE2C8E300497CD0 /* Assets.xcassets in Resources */,
+				F9E3E0351CE2C8E300497CD0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9E3E03E1CE2C8E300497CD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9E3E0491CE2C8E300497CD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9E3E0231CE2C8E300497CD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E3E0321CE2C8E300497CD0 /* ViewController.m in Sources */,
+				F9E3E02F1CE2C8E300497CD0 /* AppDelegate.m in Sources */,
+				F9E3E02C1CE2C8E300497CD0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9E3E03C1CE2C8E300497CD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E3E0451CE2C8E300497CD0 /* SplashStarDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9E3E0471CE2C8E300497CD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E3E0501CE2C8E300497CD0 /* SplashStarDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9E3E0421CE2C8E300497CD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9E3E0261CE2C8E300497CD0 /* SplashStarDemo */;
+			targetProxy = F9E3E0411CE2C8E300497CD0 /* PBXContainerItemProxy */;
+		};
+		F9E3E04D1CE2C8E300497CD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9E3E0261CE2C8E300497CD0 /* SplashStarDemo */;
+			targetProxy = F9E3E04C1CE2C8E300497CD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9E3E0331CE2C8E300497CD0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9E3E0341CE2C8E300497CD0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9E3E0381CE2C8E300497CD0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9E3E0391CE2C8E300497CD0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9E3E0521CE2C8E300497CD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9E3E0531CE2C8E300497CD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9E3E0551CE2C8E300497CD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SplashStarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TEST.SplashStarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F9E3E0561CE2C8E300497CD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SplashStarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TEST.SplashStarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F9E3E0581CE2C8E300497CD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SplashStarDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TEST.SplashStarDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplashStarDemo.app/SplashStarDemo";
+			};
+			name = Debug;
+		};
+		F9E3E0591CE2C8E300497CD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SplashStarDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TEST.SplashStarDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplashStarDemo.app/SplashStarDemo";
+			};
+			name = Release;
+		};
+		F9E3E05B1CE2C8E300497CD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SplashStarDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TEST.SplashStarDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SplashStarDemo;
+			};
+			name = Debug;
+		};
+		F9E3E05C1CE2C8E300497CD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SplashStarDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TEST.SplashStarDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SplashStarDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9E3E0221CE2C8E300497CD0 /* Build configuration list for PBXProject "SplashStarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9E3E0521CE2C8E300497CD0 /* Debug */,
+				F9E3E0531CE2C8E300497CD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9E3E0541CE2C8E300497CD0 /* Build configuration list for PBXNativeTarget "SplashStarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9E3E0551CE2C8E300497CD0 /* Debug */,
+				F9E3E0561CE2C8E300497CD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9E3E0571CE2C8E300497CD0 /* Build configuration list for PBXNativeTarget "SplashStarDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9E3E0581CE2C8E300497CD0 /* Debug */,
+				F9E3E0591CE2C8E300497CD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9E3E05A1CE2C8E300497CD0 /* Build configuration list for PBXNativeTarget "SplashStarDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9E3E05B1CE2C8E300497CD0 /* Debug */,
+				F9E3E05C1CE2C8E300497CD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9E3E01F1CE2C8E300497CD0 /* Project object */;
+}
